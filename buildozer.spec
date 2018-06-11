@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Notes
+title = HQAcebot
 
 # (str) Package name
-package.name = notes
+package.name = hqacebot
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.hqacebot
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -35,7 +35,7 @@ presplash.filename = %(source.dir)s/data/icon.png
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = landscape
+orientation = all
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 1
