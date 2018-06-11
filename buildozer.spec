@@ -29,7 +29,7 @@ version.filename = %(source.dir)s/main.py
 requirements = python3,kivy,docutils
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/icon.png
+#presplash.filename = %(source.dir)s/data/icon.png
 
 # (str) Icon of the application
 #icon.filename = %(source.dir)s/data/icon.png
@@ -49,16 +49,16 @@ fullscreen = 1
 android.permissions = INTERNET
 
 # (int) Android API to use
-android.api = 14
+#android.api = 14
 
 # (int) Minimum API required (8 = Android 2.2 devices)
-android.minapi = 8
+#android.minapi = 8
 
 # (int) Android SDK version to use
-android.sdk = 24
+#android.sdk = 24
 
 # (str) Android NDK version to use
-android.ndk = 8c
+#android.ndk = 8c
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path =
@@ -81,7 +81,7 @@ android.ndk = 8c
 
 # (str) OUYA Console category. Should be one of GAME or APP
 # If you leave this blank, OUYA support will not be enabled
-#android.ouya.category = GAME
+android.ouya.category = APP
 
 # (str) Filename of OUYA Console icon. It must be a 732x412 png image.
 #android.ouya.icon.filename = %(source.dir)s/data/ouya_icon.png
