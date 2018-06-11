@@ -26,7 +26,7 @@ version.filename = %(source.dir)s/main.py
 # version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy,docutils
+requirements = python3,kivy,docutils
 
 # (str) Presplash of the application
 presplash.filename = %(source.dir)s/data/icon.png
@@ -55,7 +55,7 @@ android.permissions = INTERNET
 #android.minapi = 8
 
 # (int) Android SDK version to use
-#android.sdk = 21
+android.sdk = 24
 
 # (str) Android NDK version to use
 #android.ndk = 8c
