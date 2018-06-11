@@ -49,16 +49,16 @@ fullscreen = 1
 android.permissions = INTERNET
 
 # (int) Android API to use
-#android.api = 14
+android.api = 14
 
 # (int) Minimum API required (8 = Android 2.2 devices)
-#android.minapi = 8
+android.minapi = 8
 
 # (int) Android SDK version to use
 android.sdk = 24
 
 # (str) Android NDK version to use
-#android.ndk = 8c
+android.ndk = 8c
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path =
@@ -104,4 +104,4 @@ android.sdk = 24
 [buildozer]
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
-log_level = 1
+log_level = 2
